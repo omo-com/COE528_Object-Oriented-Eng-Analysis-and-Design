@@ -1,0 +1,25 @@
+//Requires: Requires array a and array b to not be null.
+
+//Modifies: a
+
+//Effects: Locates the max integer of array a and the max integer of array b. Replaces the max integer a with the max of b.
+
+
+
+public static void substituteMax(int[] a, int[] b) {        
+	int maxOfA = a[0];       
+ 	int index = 0;        
+ 	for (int i = 0; i < a.length; i++) {
+            if(a[i] > maxOfA) {//Requires
+                maxOfA = a[i];//Effects
+                index = i;
+            }
+        }
+        int maxOfB = b[0];
+        for (int i = 0; i < b.length; i++) {
+            if(b[i] > maxOfB) {//Requires
+                maxOfB = b[i];//Effects
+            }
+        }
+        a[index] = maxOfB;//Modifies
+    }
