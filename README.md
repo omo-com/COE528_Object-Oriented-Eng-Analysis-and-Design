@@ -1,6 +1,6 @@
 # COE528_Object-Oriented-Eng-Analysis-and-Design
 
-This repository is made with the intension to assist individuals with problems and concepts associated COE318 and should not be taken directly for lab.
+This repository is made with the intension to assist individuals with problems and concepts associated COE318 and should not be taken directly for lab work.
 
 Contains Java code and UML diagrams for Labs 1-4
 
